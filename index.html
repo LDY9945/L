@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+
+<div class="content">
+    <p>快速搜索消费贷款</p>
+    <p>
+        <span>贷款金额</span>
+        <span>不足一万可用小数表示</span>
+    </p>
+    <p>
+        <input type="text" id="input">
+        <select id="select" class="select">
+            <option>5万元</option>
+            <option>10万元</option>
+            <option>15万元</option>
+            <option>20万元</option>
+            <option>25万元</option>
+            <option>30万元</option>
+        </select>
+    </p>
+    <p><span>货款期限</span></p>
+    <p>
+        <input type="text" id="input1">
+        <select id="select1" class="select">
+            <option>6个月</option>
+            <option>1年</option>
+            <option>18个月</option>
+            <option>2年</option>
+            <option>3年</option>
+            <option>5年</option>
+        </select>
+    </p>
+    <p><a href="#">搜索一下</a></p>
+
+    <p>9164种信贷产品 2000家银行 1403家小贷公司</p>
+
+</div>
+
+</body>
+</html>
+<script>
+    window.onload = function(){
+        document.getElementById("select").onclick = function(){
+            document.getElementById("input").value = this.value;
+        }
+
+        document.getElementById("select1").onclick = function(){
+            document.getElementById("input1").value = this.value;
+        }
+    }
+</script>

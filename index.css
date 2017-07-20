@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html, body {
+  margin: 50px 100px;
+}
+
+.content {
+  width: 300px;
+  height: 400px;
+  background: #525A5A;
+  padding: 1rem;
+}
+.content p {
+  font-size: 20px;
+  color: white;
+}
+.content p:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 10px;
+  color: white;
+}
+.content #select {
+  margin-left: -6px;
+}
+.content p:nth-of-type(4) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 10px;
+  color: white;
+}
+.content input {
+  width: 230px;
+}
+.content #select1 {
+  margin-left: -6px;
+}
+.content p:nth-of-type(6) {
+  background: #0094EF;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 1rem;
+  color: black;
+}
+.content p:nth-of-type(7) {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 7px;
+  margin-top: 1rem;
+  color: #878B8B;
+}
+.content p:nth-of-type(5) input {
+  height: 30px;
+}
+.content p:nth-of-type(5) .select {
+  height: 33px;
+}
+.content p:nth-of-type(3) input {
+  height: 30px;
+}
+.content p:nth-of-type(3) .select {
+  height: 33px;
+}
+
+/*# sourceMappingURL=index.css.map */
